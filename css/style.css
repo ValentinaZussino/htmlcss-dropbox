@@ -59,6 +59,7 @@ h3 {
 }
 .btn-gray {
     border: 1px solid var(--black);
+    background-color: var(--white);
 }
 /* HEADER */
 header nav {
@@ -281,7 +282,7 @@ h2 {
 .card-txt h3 {
     padding-bottom: 20px;
 }
-/* 500 mila section */
+/* 500mila section */
 #more500 h2 {
     width: 60%;
     line-height: var(--txtline);
@@ -289,6 +290,26 @@ h2 {
 #more500 span {
     display: inline-block;
     padding-top: 25px;
+}
+/* porta dropbox business section */
+#porta-dropbox {
+    background-color: var(--lightblue);
+    height: 300px;
+    align-items: center;
+}
+#porta-dropbox > div {
+    justify-content: space-between;
+}
+#porta-dropbox h2 {
+    width: 50%;
+    color: rgb(97, 8, 42);
+    line-height: var(--txtline);
+}
+.w40 {
+    flex-basis: 30%;
+}
+.w40 div.btn-gray {
+    border: none;
 }
 /* FOOTER */
 footer {
