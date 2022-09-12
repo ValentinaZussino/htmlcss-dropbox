@@ -7,9 +7,10 @@
     --white: white;
     --lightblue: rgb(181, 208, 232);
     --black: black;
-    --btnblue: rgb(0, 97, 255);
+    --blue: rgb(0, 97, 255);
     --txtline: 1.3;
     --langgray: rgb(153, 153, 153);
+    --lightgray: rgb(221, 221, 223);
 }
 body {
     background-color: var(--white);
@@ -58,7 +59,7 @@ header nav ul li {
     cursor: pointer;
 }
 .btn-blue {
-    background-color: var(--btnblue);
+    background-color: var(--blue);
     color: var(--white);
 }
 #hero {
@@ -102,6 +103,7 @@ h1 {
     width: 70%;
 }
 /* main */
+/* plan section */
 #plans h2 {
     font-size: 37px;
     padding-bottom: 25px;
@@ -109,6 +111,9 @@ h1 {
 .radio-div {
     height: 50px;
     padding-right: 30px;
+}
+.radio-div span {
+    line-height: 50px;
 }
 .circle {
     display: inline-block;
@@ -119,13 +124,43 @@ h1 {
     vertical-align: middle;
 }
 #checked {
-    border: 6px solid var(--btnblue);
+    border: 6px solid var(--blue);
 }
 #non-checked {
-    border: 3px solid rgb(221, 221, 223);
+    border: 3px solid var(--lightgray);
 }
-.radio-div span {
-    line-height: 50px;
+#grid-plans {
+    padding: 20px 0;
+}
+.col-plan {
+    width: calc((100% - 40px) / 3);
+    border: 1px solid var(--lightgray);
+    min-height: 800px;
+}
+.middle-col-plan{
+    margin: 0 20px;
+}
+.plan-type {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--lightgray);
+}
+.col-inner-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    line-height: var(--txtline);
+}
+.col-inner-container h3 {
+    font-size: 23px;
+}
+.price {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.period {
+    color: rgb(106, 103, 108);
 }
 /* footer */
 footer {
