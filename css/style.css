@@ -292,6 +292,9 @@ h2 {
     padding-top: 25px;
 }
 /* logos section */
+#multi-logo {
+    min-height: 500px;
+}
 .col-logos {
     border: 1px solid black;
     flex-basis: calc(100% / 3);
@@ -301,16 +304,16 @@ h2 {
     height: 50%;
 }
 .s1 {
-    background-color: red;
+    background-color: rgb(162, 211, 155);
 }
 .s2 {
-    background-color: blue;
+    background-color: rgb(97, 8, 43);
 }
 .s3 {
-    background-color: violet;
+    background-color: rgb(0, 147, 206);
 }
 .s4 {
-    background-color: chartreuse;
+    background-color: rgb(255, 28, 28);
 }
 /* porta dropbox business section */
 #porta-dropbox {
@@ -320,6 +323,7 @@ h2 {
     justify-content: space-between;
     align-items: baseline;
     padding: 120px 0;
+    margin-top: 0;
 }
 #porta-dropbox h2 {
     flex-basis: 50%;
