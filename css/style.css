@@ -102,12 +102,16 @@ h1 {
     width: 70%;
 }
 /* main */
+.radio-div {
+    height: 50px;
+}
 .circle {
     display: inline-block;
     background-color: var(--white);
     width: 25px;
     height: 25px;
     border-radius: 50%;
+    vertical-align: middle;
 }
 #checked {
     border: 6px solid var(--btnblue);
@@ -115,8 +119,12 @@ h1 {
 #non-checked {
     border: 3px solid rgb(221, 221, 223);
 }
+.radio-div span {
+    line-height: 50px;
+}
 /* footer */
 footer {
+    width: 100%;
     background-color: var(--black);
     color: var(--white);
     padding-top: 60px;
