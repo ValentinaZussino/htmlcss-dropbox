@@ -54,7 +54,7 @@ header nav ul li {
     cursor: pointer;
 }
 .btn {
-    padding: 5px 12px;
+    padding: 8px 12px;
     text-align: center;
     cursor: pointer;
 }
@@ -170,6 +170,11 @@ h1 {
 }
 .single-char {
     padding-bottom: 18px;
+}
+.oppure {
+    display: inline-block;
+    padding: 20px 5px 30px 0;
+    border-bottom: 1px solid var(--lightgray);
 }
 /* footer */
 footer {
