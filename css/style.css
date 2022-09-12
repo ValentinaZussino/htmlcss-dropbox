@@ -9,6 +9,7 @@
     --black: black;
     --btnblue: rgb(0, 97, 255);
     --txtline: 1.3;
+    --langgray: rgb(153, 153, 153);
 }
 body {
     background-color: var(--white);
@@ -105,10 +106,9 @@ footer {
     background-color: var(--black);
     color: var(--white);
     padding-top: 60px;
-    padding-bottom: 20px;
 }
 footer nav {
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 footer h3 {
     padding-bottom: 10px;
@@ -122,14 +122,14 @@ footer .col-nav ul li {
     cursor: pointer;
 }
 footer section div {
-    display: inline;
+    display: inline-block;
     border-top: 1px solid white;
-    color: rgb(153, 153, 153);
-    padding-top: 25px;
+    color: var(--langgray);
+    padding: 30px 0;
 }
 footer select {
     background-color: var(--black);
-    color: rgb(153, 153, 153);
+    color: var(--langgray);
     margin: 0 5px;
     border: none;
     cursor: pointer;
