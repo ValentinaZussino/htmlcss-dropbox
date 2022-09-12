@@ -162,6 +162,15 @@ h1 {
 .period {
     color: rgb(106, 103, 108);
 }
+.characteristics {
+    padding: 40px 0;
+}
+.characteristics i {
+    margin-right: 5px;
+}
+.single-char {
+    padding-bottom: 18px;
+}
 /* footer */
 footer {
     width: 100%;
