@@ -102,8 +102,13 @@ h1 {
     width: 70%;
 }
 /* main */
+#plans h2 {
+    font-size: 37px;
+    padding-bottom: 25px;
+}
 .radio-div {
     height: 50px;
+    padding-right: 30px;
 }
 .circle {
     display: inline-block;
