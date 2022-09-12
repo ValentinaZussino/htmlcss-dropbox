@@ -35,6 +35,9 @@ nav a {
 nav ul li {
     list-style-type: none;
 }
+nav ul li a:hover {
+    text-decoration: underline;
+}
 h3 {
     font-size: 23px;
 }
@@ -137,8 +140,19 @@ h1 {
 }
 #checked {
     border: 6.5px solid var(--blue);
+    cursor: pointer;
+}
+#checked:active {
+    border: 3px solid var(--lightgray);
 }
 #non-checked {
+    border: 3px solid var(--lightgray);
+    cursor: pointer;
+}
+#non-checked:active {
+    border: 6.5px solid var(--blue);
+}
+#non-checked:active #checked {
     border: 3px solid var(--lightgray);
 }
 #grid-plans {
