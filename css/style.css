@@ -7,10 +7,12 @@
     --white: white;
     --lightblue: rgb(181, 208, 232);
     --black: black;
+    --btnblue: rgb(0, 97, 255);
 }
 body {
     background-color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 /* for inner hero e inner footer */
 .container {
@@ -33,19 +35,27 @@ header nav {
     z-index: 500;
     background-color: var(--white);
     justify-content: space-between;
+    padding: 0 10px;
+}
+header nav .d-flex {
     align-items: center;
 }
 header nav .logo {
     height: 27%;
     padding-right: 15px;
-    padding-left: 10px;
     cursor: pointer;
 }
 header nav ul li {
     list-style-type: none;
     padding: 0 15px;
     cursor: pointer;
-    font-size: 15px;
+}
+.btn {
+    padding: 5px 12px;
+}
+.btn-blue {
+    background-color: var(--btnblue);
+    color: var(--white);
 }
 #hero {
     background-color: var(--lightblue);
