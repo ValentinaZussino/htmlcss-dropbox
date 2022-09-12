@@ -101,6 +101,20 @@ h1 {
 .w70 {
     width: 70%;
 }
+/* main */
+.circle {
+    display: inline-block;
+    background-color: var(--white);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+#checked {
+    border: 6px solid var(--btnblue);
+}
+#non-checked {
+    border: 3px solid rgb(221, 221, 223);
+}
 /* footer */
 footer {
     background-color: var(--black);
