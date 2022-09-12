@@ -291,6 +291,27 @@ h2 {
     display: inline-block;
     padding-top: 25px;
 }
+/* logos section */
+.col-logos {
+    border: 1px solid black;
+    flex-basis: calc(100% / 3);
+}
+.square {
+    width: 50%;
+    height: 50%;
+}
+.s1 {
+    background-color: red;
+}
+.s2 {
+    background-color: blue;
+}
+.s3 {
+    background-color: violet;
+}
+.s4 {
+    background-color: chartreuse;
+}
 /* porta dropbox business section */
 #porta-dropbox {
     background-color: var(--lightblue);
