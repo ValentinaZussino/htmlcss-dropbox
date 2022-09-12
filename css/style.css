@@ -265,9 +265,7 @@ h2 {
 .card {
     flex-basis: calc(100% / 3);
     min-height: 500px;
-    padding-right: 15px;
-    background-color: bisque;
-    border: 1px solid black;
+    padding-right: 20px;
 }
 .card-img {
     height: 50%;
@@ -277,6 +275,7 @@ h2 {
 }
 .card-txt {
     height: 50%;
+    line-height: var(--txtline);
 }
 .card-txt h3 {
     padding: 15px 0;
