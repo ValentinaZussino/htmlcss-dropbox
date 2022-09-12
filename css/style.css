@@ -215,6 +215,7 @@ h1 {
 #team-enterprise {
     min-height: 250px;
     border: 1px solid var(--lightgray);
+    margin: 20px 0
 }
 #team-enterprise .team-inner-container {
     width: 95%;
@@ -234,6 +235,18 @@ h1 {
 }
 .col-team-right .btn {
     width: 90%;
+}
+/* entra in contatto section */
+.col-entra-left {
+    flex-basis: 60%;
+}
+.col-entra-left img {
+    width: 100%;
+}
+.col-entra-right {
+    flex-basis: 40%;
+    padding-top: 35px;
+    background-color: brown;
 }
 /* FOOTER */
 footer {
