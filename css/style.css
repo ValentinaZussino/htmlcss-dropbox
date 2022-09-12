@@ -297,6 +297,7 @@ h2 {
 }
 #porta-dropbox > div {
     justify-content: space-between;
+    align-items: baseline;
     padding: 120px 0;
 }
 #porta-dropbox h2 {
