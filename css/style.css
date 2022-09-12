@@ -107,14 +107,19 @@ footer {
     padding-top: 60px;
     padding-bottom: 20px;
 }
+footer nav {
+    padding-bottom: 80px;
+}
+footer h3 {
+    padding-bottom: 10px;
+}
 footer .col-nav {
     width: calc(100% / 5);
-    background-color: red;
-    line-height: var(--txtline);
-}
-footer .col-nav:first-of-type {
-    border-bottom: 1px solid white; ;
+    line-height: 2;
 }
 footer .col-nav ul li {
     list-style-type: none;
+}
+footer section {
+    border-top: 1px solid white;
 }
