@@ -8,6 +8,7 @@
     --lightblue: rgb(181, 208, 232);
     --black: black;
     --btnblue: rgb(0, 97, 255);
+    --txtline: 1.3;
 }
 body {
     background-color: var(--white);
@@ -52,6 +53,8 @@ header nav ul li {
 }
 .btn {
     padding: 5px 12px;
+    text-align: center;
+    cursor: pointer;
 }
 .btn-blue {
     background-color: var(--btnblue);
@@ -78,11 +81,21 @@ h1 {
 }
 .w30 {
     width: 30%;
+    line-height: var(--txtline);
+    position: relative;
+}
+.w30 .btn {
+    margin: 20px 0;
+    width: 60%;
+}
+.w30 a {
+    position: absolute;
+    bottom: 90px;
+    left: 0;
 }
 .w30 i {
     color: var(--black);
     font-size: 30px;
-    /* font-weight: bold; */
 }
 .w70 {
     width: 70%;
