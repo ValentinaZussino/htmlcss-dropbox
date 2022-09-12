@@ -133,12 +133,12 @@ h1 {
     padding: 20px 0;
 }
 .col-plan {
-    width: calc((100% - 40px) / 3);
+    width: calc((100% - 80px) / 3);
     border: 1px solid var(--lightgray);
-    min-height: 800px;
+    min-height: 900px;
 }
 .middle-col-plan{
-    margin: 0 20px;
+    margin: 0 40px;
 }
 .plan-type {
     text-align: center;
@@ -179,6 +179,7 @@ h1 {
 .col-plan h4 {
     padding-top: 30px;
     padding-bottom: 5px;
+    font-size: 16px;
 }
 .blue-icon {
     color: var(--blue);
