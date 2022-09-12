@@ -281,6 +281,15 @@ h2 {
 .card-txt h3 {
     padding-bottom: 20px;
 }
+/* 500 mila section */
+#more500 h2 {
+    width: 60%;
+    line-height: var(--txtline);
+}
+#more500 span {
+    display: inline-block;
+    padding-top: 25px;
+}
 /* FOOTER */
 footer {
     width: 100%;
