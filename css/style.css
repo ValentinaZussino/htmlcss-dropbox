@@ -33,9 +33,19 @@ header nav {
     z-index: 500;
     background-color: var(--white);
     justify-content: space-between;
+    align-items: center;
 }
 header nav .logo {
-    height: 25%;
+    height: 27%;
+    padding-right: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+header nav ul li {
+    list-style-type: none;
+    padding: 0 15px;
+    cursor: pointer;
+    font-size: 15px;
 }
 #hero {
     background-color: var(--lightblue);
