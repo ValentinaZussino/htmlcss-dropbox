@@ -17,18 +17,41 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
-/* for inner hero e inner footer */
+/* for inner hero and inner footer */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     /* min-width: ; */
 }
-/* for sections main */
+/* for sections in main */
 .smallercontainer {
     max-width: 1000px;
     margin: 150px auto;
 }
-/* header */
+/* GENERAL */
+nav a {
+    text-decoration: none;
+}
+nav ul li {
+    list-style-type: none;
+}
+h3 {
+    font-size: 23px;
+}
+.d-flex {
+    display: flex;
+}
+/* btns */
+.btn {
+    padding: 8px 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-blue, .btn-blue a {
+    background-color: var(--blue);
+    color: var(--white);
+}
+/* HEADER */
 header nav {
     width: 100%;
     height: 80px;
@@ -49,18 +72,10 @@ header nav .logo {
     cursor: pointer;
 }
 header nav ul li {
-    list-style-type: none;
     padding: 0 15px;
-    cursor: pointer;
 }
-.btn {
-    padding: 8px 12px;
-    text-align: center;
-    cursor: pointer;
-}
-.btn-blue {
-    background-color: var(--blue);
-    color: var(--white);
+header nav ul li a {
+    color: var(--black);
 }
 #hero {
     background-color: var(--lightblue);
@@ -74,9 +89,6 @@ h1 {
     font-size: 76px;
     font-weight: bold;
     padding-bottom: 40px;
-}
-.d-flex {
-    display: flex;
 }
 #hero img {
     width: 100%;
@@ -102,8 +114,8 @@ h1 {
 .w70 {
     width: 70%;
 }
-/* main */
-/* plan section */
+/* MAIN */
+/* plans section */
 #plans h2 {
     font-size: 37px;
     padding-bottom: 25px;
@@ -124,7 +136,7 @@ h1 {
     vertical-align: middle;
 }
 #checked {
-    border: 6px solid var(--blue);
+    border: 6.5px solid var(--blue);
 }
 #non-checked {
     border: 3px solid var(--lightgray);
@@ -150,9 +162,6 @@ h1 {
     margin: 0 auto;
     padding-top: 20px;
     line-height: var(--txtline);
-}
-h3 {
-    font-size: 23px;
 }
 .price {
     display: inline-block;
@@ -185,12 +194,11 @@ h3 {
     color: var(--blue);
     padding-right: 5px;
 }
-.plain-main-char {
+.plan-main-char {
     padding-top: 10px;
 }
 /* team - enterprise */
 #team-enterprise {
-    /* width: 100%; */
     min-height: 250px;
     border: 1px solid var(--lightgray);
 }
@@ -213,7 +221,7 @@ h3 {
 .col-team-right .btn {
     width: 90%;
 }
-/* footer */
+/* FOOTER */
 footer {
     width: 100%;
     background-color: var(--black);
@@ -223,16 +231,15 @@ footer {
 footer nav {
     padding-bottom: 100px;
 }
-footer h3 {
-    padding-bottom: 10px;
-}
 footer .col-nav {
     width: calc(100% / 5);
     line-height: 2;
 }
-footer .col-nav ul li {
-    list-style-type: none;
-    cursor: pointer;
+footer h3 {
+    padding-bottom: 10px;
+}
+footer nav ul li a {
+    color: var(--white);
 }
 footer section div {
     display: inline-block;
