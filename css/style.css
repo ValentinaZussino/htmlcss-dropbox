@@ -14,6 +14,9 @@
     --lightbrown: rgb(238, 233, 226);
     --hovop: 0.8;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
@@ -59,6 +62,7 @@ h3 {
 .btn-blue, .btn-blue a {
     background-color: var(--blue);
     color: var(--white);
+    text-decoration: none;
 }
 .btn-blue:hover {
     opacity: var(--hovop);
@@ -69,6 +73,10 @@ h3 {
 }
 .btn-gray:hover {
     background-color: var(--lightbrown);
+}
+.btn-gray a {
+    text-decoration: none;
+    color: var(--black);
 }
 /* HEADER */
 header nav {
@@ -327,6 +335,7 @@ h2 {
     width: 15vw;
     height: 15vw;
     justify-content: center;
+    cursor: pointer;
 }
 .square:hover {
     opacity: var(--hovop);
@@ -409,7 +418,7 @@ details summary span {
 }
 details p {
     line-height: var(--txtline);
-    padding-bottom: 15px;
+    padding: 15px;
 }
 details:last-of-type {
     border-bottom: 1px solid rgb(169, 169, 169);
