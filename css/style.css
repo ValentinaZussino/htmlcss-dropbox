@@ -40,9 +40,6 @@ nav a {
 nav ul li {
     list-style-type: none;
 }
-nav ul li a:hover {
-    text-decoration: underline;
-}
 h3 {
     font-size: 23px;
 }
@@ -100,9 +97,14 @@ header nav .logo {
 }
 header nav ul li {
     padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
 }
 header nav ul li a {
     color: var(--black);
+}
+header nav ul li:hover {
+    background-color: var(--lightbrown);
 }
 #hero {
     background-color: var(--lightblue);
@@ -410,8 +412,7 @@ details summary {
 details summary:hover {
     background-color: var(--lightbrown);
 }
-details summary span {
-    display: inline;
+details summary div {
     font-size: 30px;
     padding-right: 30px;
     cursor: pointer;
@@ -442,6 +443,9 @@ footer h3 {
 }
 footer nav ul li a {
     color: var(--white);
+}
+footer nav ul li a:hover {
+    text-decoration: underline;
 }
 footer section div {
     display: inline-block;
