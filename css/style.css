@@ -11,6 +11,8 @@
     --txtline: 1.35;
     --langgray: rgb(153, 153, 153);
     --lightgray: rgb(221, 221, 223);
+    --lightbrown: rgb(238, 233, 226);
+    --hovop: 0.8;
 }
 body {
     background-color: var(--white);
@@ -58,9 +60,15 @@ h3 {
     background-color: var(--blue);
     color: var(--white);
 }
+.btn-blue:hover {
+    opacity: var(--hovop);
+}
 .btn-gray {
     border: 1px solid var(--black);
     background-color: var(--white);
+}
+.btn-gray:hover {
+    background-color: var(--lightbrown);
 }
 /* HEADER */
 header nav {
@@ -320,6 +328,9 @@ h2 {
     height: 15vw;
     justify-content: center;
 }
+.square:hover {
+    opacity: var(--hovop);
+}
 .square img {
     filter:invert(1);
     width: 50%;
@@ -386,6 +397,9 @@ details summary {
     height: 80px;
     justify-content: space-between;
     align-items: center;
+}
+details summary:hover {
+    background-color: var(--lightbrown);
 }
 details summary span {
     display: inline;
