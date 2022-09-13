@@ -293,9 +293,6 @@ h2 {
     padding-top: 25px;
 }
 /* logos section */
-#multi-logo {
-    /* height: 30vh; */
-}
 .logos {
     width: 30vw;
 }
@@ -376,6 +373,28 @@ h2 {
 }
 .porta-dropbox-right div.btn-gray {
     border: none;
+}
+/* faq section */
+details summary {
+    list-style: none;
+    font-weight: bold;
+    font-size: 17px;
+    border-top: 1px solid rgb(169, 169, 169);
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+details summary span {
+    display: inline;
+    font-size: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+details p {
+    line-height: var(--txtline);
+}
+details:last-of-type {
+    border-bottom: 1px solid rgb(169, 169, 169);
 }
 /* FOOTER */
 footer {
