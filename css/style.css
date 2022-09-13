@@ -267,9 +267,26 @@ h2 {
 /* entra in contatto section */
 .col-entra-left {
     flex-basis: 60%;
+    position: relative;
 }
 .col-entra-left img {
     width: 100%;
+}
+.col-entra-left span {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 250px;
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgba(30, 30, 30);
+}
+.col-entra-left span:hover {
+    background-color: rgba(30, 30, 30, 0.188);
+}
+.col-entra-left span:active i {
+    transform: scale(1.3);
 }
 .col-entra-right {
     flex-basis: 40%;
