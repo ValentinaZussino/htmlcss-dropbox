@@ -417,9 +417,12 @@ details summary:hover {
     background-color: var(--lightbrown);
 }
 details summary div {
-    font-size: 30px;
+    font-size: 15px;
     padding-right: 30px;
     cursor: pointer;
+}
+details summary div:active i {
+    transform:scale(1.5);
 }
 details p {
     line-height: var(--txtline);
