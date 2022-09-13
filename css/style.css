@@ -300,8 +300,23 @@ h2 {
     width: 30vw;
 }
 .logos-center {
-    border: 1px solid black;
     width: calc(100% - 60vw);
+    background-color: rgb(245, 245, 245);
+    overflow-y: auto;
+    height: 30vw;
+}
+.logos-center img {
+    width: 50%;
+    padding: 35px;
+}
+.logos-center hr {
+    width: 65px;
+    margin-left: 35px;
+    color: rgb(213, 213, 216);
+}
+.logos-center div {
+    padding: 35px;
+    line-height: var(--txtline);
 }
 .square {
     width: 15vw;
