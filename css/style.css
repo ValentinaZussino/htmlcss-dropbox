@@ -316,6 +316,14 @@ h2 {
 .s4 {
     background-color: rgb(255, 28, 28);
 }
+.square svg {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+.square svg path {
+    fill: var(--white);
+}
 /* porta dropbox business section */
 #porta-dropbox {
     background-color: var(--lightblue);
