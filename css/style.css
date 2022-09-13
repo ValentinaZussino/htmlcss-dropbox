@@ -294,15 +294,23 @@ h2 {
 }
 /* logos section */
 #multi-logo {
-    min-height: 500px;
+    /* height: 30vh; */
 }
-.col-logos {
+.logos {
+    width: 30vw;
+}
+.logos-center {
     border: 1px solid black;
-    flex-basis: calc(100% / 3);
+    width: calc(100% - 60vw);
 }
 .square {
+    width: 15vw;
+    height: 15vw;
+    justify-content: center;
+}
+.square img {
+    filter:invert(1);
     width: 50%;
-    height: 50%;
 }
 .s1 {
     background-color: rgb(162, 211, 155);
@@ -316,11 +324,11 @@ h2 {
 .s4 {
     background-color: rgb(255, 28, 28);
 }
-.square svg {
+/* .square svg {
     display: block;
     width: 50%;
     margin: 0 auto;
-}
+} */
 .square svg path {
     fill: var(--white);
 }
