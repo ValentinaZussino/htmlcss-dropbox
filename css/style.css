@@ -13,6 +13,7 @@
     --lightgray: rgb(221, 221, 223);
     --lightbrown: rgb(238, 233, 226);
     --hovop: 0.8;
+    --purple: rgb(97, 8, 42);
 }
 html {
     scroll-behavior: smooth;
@@ -149,20 +150,20 @@ header nav ul li:hover {
 .extrapage {
     color: red;
 }
-#hero {
+.hero {
     background-color: var(--lightblue);
     padding-top: 80px;
 }
-#hero .container {
+#index .hero .container {
     position: relative;
     bottom: -80px;
 }
-h1 {
+#index h1 {
     font-size: 76px;
     font-weight: bold;
     padding-bottom: 40px;
 }
-#hero img {
+.hero img {
     width: 100%;
 }
 .w30 {
@@ -446,11 +447,6 @@ h2 {
     position: absolute;
     bottom: 6.5vw;
     left:3.5vw;
-    /* transform: translate(-50%, -50%); */
-    /* padding-top
-    align-item
-    justify-content
-    vertical-align */
 }
 .s4 {
     background-color: rgb(255, 28, 28);
@@ -479,7 +475,7 @@ h2 {
 }
 #porta-dropbox h2 {
     flex-basis: 50%;
-    color: rgb(97, 8, 42);
+    color: var(--purple);
     line-height: var(--txtline);
 }
 .porta-dropbox-right {
@@ -554,4 +550,34 @@ footer select {
     margin: 0 5px;
     border: none;
     cursor: pointer;
+}
+/* PARTNER PAGE */
+#partnerpage .hero .container {
+    padding: 100px 0;
+}
+#partnerpage .colw60 {
+    width: 60%;
+    padding: 35px 35px 0 0;
+}
+#partnerpage .colw60 div {
+    width: 60%;
+    margin-top: 30px;
+    line-height: var(--txtline);
+}
+#partnerpage .colw60 div p {
+    font-size: 17px;
+}
+#partnerpage .colw60 div .btn-gray {
+    border: none;
+    width: 60%;
+}
+#partnerpage .colw40 {
+    width: 40%;
+}
+#partnerpage .colw40 img {
+    width: 100%;
+}
+#partnerpage h1 {
+    font-size: 55px;
+    color: var(--purple);
 }
