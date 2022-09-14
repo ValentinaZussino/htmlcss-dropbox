@@ -568,9 +568,6 @@ footer select {
     font-size: 17px;
     line-height: var(--txtline);
 }
-#partnerpage .colw60 div p {
-    font-size: 17px;
-}
 #partnerpage .colw60 div .btn-gray {
     border: none;
     width: 60%;
@@ -597,10 +594,6 @@ footer select {
 }
 #partnerpage h2 {
     font-size: 45px;  
-}
-#partnerpage .col-entra-right p {
-    line-height: var(--txtline);
-    font-size: 17px;
 }
 #partnerpage .certificazione {
     width: 70%;
