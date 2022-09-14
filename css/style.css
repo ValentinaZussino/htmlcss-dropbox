@@ -22,6 +22,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+     /* Add a pointer on hover */
+}
 /* for inner hero and inner footer */
 .container {
     max-width: 1200px;
@@ -115,18 +128,30 @@ header nav ul li:hover {
     position: absolute;
     left: 0;
     top: 80;
-    background-color: var(--white);
+    background-color: var(--lightbrown);
     width: 230px;
     font-size: 13px;
     display: none;
 }
-.dropdown-nav ul li {
+.muovi {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: var(--lightbrown);
+    width: 230px;
+    font-size: 13px;
+    display: none;
+}
+.dropdown-nav ul li, .muovi ul li {
     height: 50px;
     line-height: 50px;
     cursor: pointer;
 }
-.dropdown:hover .dropdown-nav {
+.dropdown:hover .dropdown-nav, .dropdown:hover .muovi {
     display: block;
+}
+.dropdown-nav ul li:hover, .muovi ul li:hover {
+    background-color: var(--white);
 }
 #hero {
     background-color: var(--lightblue);
