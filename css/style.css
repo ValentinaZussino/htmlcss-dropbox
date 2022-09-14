@@ -107,6 +107,27 @@ header nav ul li a {
 header nav ul li:hover {
     background-color: var(--lightbrown);
 }
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+.dropdown-nav {
+    position: absolute;
+    left: 0;
+    top: 80;
+    background-color: var(--white);
+    width: 230px;
+    font-size: 13px;
+    display: none;
+}
+.dropdown-nav ul li {
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.dropdown:hover .dropdown-nav {
+    display: block;
+}
 #hero {
     background-color: var(--lightblue);
     padding-top: 80px;
