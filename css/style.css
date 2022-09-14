@@ -146,6 +146,9 @@ header nav ul li:hover {
 .dropdown-nav ul li:hover, .accedi ul li:hover {
     background-color: var(--white);
 }
+.extrapage {
+    color: red;
+}
 #hero {
     background-color: var(--lightblue);
     padding-top: 80px;
