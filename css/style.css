@@ -22,19 +22,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
-.overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
-     /* Add a pointer on hover */
-}
 /* for inner hero and inner footer */
 .container {
     max-width: 1200px;
@@ -133,7 +120,7 @@ header nav ul li:hover {
     font-size: 13px;
     display: none;
 }
-.muovi {
+.accedi {
     position: absolute;
     top: 80px;
     right: 0;
@@ -142,15 +129,15 @@ header nav ul li:hover {
     font-size: 13px;
     display: none;
 }
-.dropdown-nav ul li, .muovi ul li {
+.dropdown-nav ul li, .accedi ul li {
     height: 50px;
     line-height: 50px;
     cursor: pointer;
 }
-.dropdown:hover .dropdown-nav, .dropdown:hover .muovi {
+.dropdown:hover .dropdown-nav, .dropdown:hover .accedi {
     display: block;
 }
-.dropdown-nav ul li:hover, .muovi ul li:hover {
+.dropdown-nav ul li:hover, .accedi ul li:hover {
     background-color: var(--white);
 }
 #hero {
@@ -292,6 +279,9 @@ h2 {
     display: inline-block;
     padding: 20px 5px 30px 0;
     border-bottom: 1px solid var(--lightgray);
+}
+.buynow {
+    color: rgb(19, 12, 227);
 }
 .col-plan h4 {
     padding-top: 30px;
