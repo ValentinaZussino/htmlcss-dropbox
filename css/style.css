@@ -464,16 +464,16 @@ h2 {
    background-color: rgb(255, 216, 48); 
 }
 /* porta dropbox business section */
-#porta-dropbox {
+.lightblue-row {
     background-color: var(--lightblue);
 }
-#porta-dropbox > div {
+.lightblue-row > div {
     justify-content: space-between;
     align-items: baseline;
     padding: 120px 0;
     margin-top: 0;
 }
-#porta-dropbox h2 {
+.lightblue-row h2 {
     flex-basis: 50%;
     color: var(--purple);
     line-height: var(--txtline);
@@ -564,6 +564,10 @@ footer select {
     margin-top: 30px;
     line-height: var(--txtline);
 }
+#partnerpage p {
+    font-size: 17px;
+    line-height: var(--txtline);
+}
 #partnerpage .colw60 div p {
     font-size: 17px;
 }
@@ -591,10 +595,25 @@ footer select {
 #partnerpage .col-entra-right {
     padding: 0 50px;
 }
-#partnerpage .col-entra-right h2 {
+#partnerpage h2 {
     font-size: 45px;  
 }
 #partnerpage .col-entra-right p {
     line-height: var(--txtline);
     font-size: 17px;
+}
+#partnerpage .certificazione {
+    width: 70%;
+}
+#partnerpage .lightblue-row {
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+#partnerpage .lightblue-row h2 {
+    flex-basis: 70%;
+    line-height: 1;
+}
+#partnerpage .porta-dropbox-right {
+    flex-basis: 20%;
+    padding-right: 25px;
 }
