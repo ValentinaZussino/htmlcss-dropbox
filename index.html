@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Dropbox</title>
 </head>
-<!-- IMPOSSIBILE SISTEMARE SVG FLORIDA -->
 <!-- aggiungere effetti mancanti -->
 <body>
     <header>
@@ -17,18 +16,18 @@
             <div class="d-flex">
                 <img src="./img/logo-small.png" alt="Logo Dropbox" class="logo">
                 <ul class="d-flex">
-                    <li><a href="">Perchè Dropbox</a></li>
-                    <li><a href="">Funzioni</a></li>
-                    <li><a href="">Piani e Prezzi</a></li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e Prezzi</a></li>
                 </ul>
             </div>
             <div class="d-flex">
                 <ul class="d-flex">
-                    <li><a href="">Supporto</a></li>
-                    <li><a href="">Contatta l'ufficio vendite</a></li>
-                    <li><a href="">Accedi</a></li>
+                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li><a href="#">Accedi</a></li>
                 </ul>
-                <div class="btn btn-blue"><a href="">Inizia</a></div>
+                <div class="btn btn-blue"><a href="#">Inizia</a></div>
             </div>
         </nav>
         <!-- 100% lightblue -->
@@ -56,16 +55,15 @@
         <section id="plans" class="smallercontainer">
             <h2 id="fatturazione">Trova il piano business che fa per te</h2>
             <!-- radio checkbox -->
-            <div class="d-flex">
-                <div class="radio-div">
-                    <div class="circle" id="checked">
-                    </div>
-                    <span>Fatturazione mensile</span> 
-                </div>
-                <div class="radio-div">
-                    <div class="circle" id="non-checked"></div>
-                    <span>Fatturazione annuale</span>
-                </div>
+            <div id="radiobtn-div">
+                <label class="button-container">Fatturazione mensile
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="button-container">Fatturazione annuale
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
             </div>
             <!-- plans columns -->
             <div class="d-flex" id="grid-plans">
@@ -315,8 +313,8 @@
                     <img src="./img/arizona_state_university.svg" alt="logo arizona state university">
                 </div>
                 <div class="square s3 d-flex">
-                    <img src="./img/clear_channel.svg" alt="logo clear channel">
-                    <!-- <img src="./img/university_of_florida2.svg" alt=""> -->
+                    <!-- <img src="./img/clear_channel.svg" alt="logo clear channel"> -->
+                    <img src="./img/university_of_florida2.svg" alt="">
                 </div>
                 <div class="square s4 d-flex">
                     <img src="./img/topps.svg" alt="logo topps">
