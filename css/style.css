@@ -581,3 +581,20 @@ footer select {
     font-size: 55px;
     color: var(--purple);
 }
+#partnerpage main section {
+    margin: 150px auto;
+}
+#partnerpage .col-entra-left img {
+    width: 590px;
+    height: 500px;
+}
+#partnerpage .col-entra-right {
+    padding: 0 50px;
+}
+#partnerpage .col-entra-right h2 {
+    font-size: 45px;  
+}
+#partnerpage .col-entra-right p {
+    line-height: var(--txtline);
+    font-size: 17px;
+}
