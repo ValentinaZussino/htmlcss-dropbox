@@ -129,6 +129,12 @@ header nav ul li:hover {
     font-size: 13px;
     display: none;
 }
+.dropdown-nav ul li:first-of-type {
+    font-weight: bold;
+}
+.accedi ul li:first-of-type {
+    font-weight: bold;
+}
 .dropdown-nav ul li, .accedi ul li {
     height: 50px;
     line-height: 50px;
